@@ -1,0 +1,24 @@
+{
+  "name": "gitgraph-worker",
+  "version": "1.0.0",
+  "description": "Worker assíncrono para geração de PDFs do GitGraph",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "prisma:generate": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1079.0",
+    "@prisma/client": "^6.19.2",
+    "@sparticuz/chromium": "^149.0.0",
+    "amqplib": "^0.10.9",
+    "puppeteer-core": "^24.43.1"
+  },
+  "devDependencies": {
+    "prisma": "^6.19.2"
+  }
+}
